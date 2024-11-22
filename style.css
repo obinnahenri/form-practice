@@ -1,0 +1,76 @@
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.why-attend {
+  list-style: square;
+}
+form {
+  margin-bottom: 22px;
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+.group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.group input,
+.group select,
+.group textarea {
+  display: block;
+  margin: 5px 0 27px 0;
+  color: #88;
+}
+.btn {
+  background: #648880;
+  color: white;
+  padding: 11px 30px;
+}
+.btn:hover {
+  background-color: #77a198;
+}
+h2,
+h4 {
+  color: #888;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px;
+  align-items: center;
+  color: #88;
+}
+.style {
+  align-items: center;
+  margin-left: 40px;
+  color: #888;
+}
+.foot {
+  background-color: #1f2937;
+  color: white;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+}
+.style1 {
+  align-items: center;
+  margin-left: 50px;
+  color: #888;
+}
+ul {
+  padding-left: 0px;
+}
+.header {
+  background-color: #1f2937;
+  color: white;
+  margin-bottom: 30px;
+}
+.dec {
+  margin: 40px 0px 0px;
+  color: #888;
+}
